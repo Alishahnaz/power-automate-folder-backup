@@ -1,0 +1,24 @@
+Build your first working automation
+We will create a very simple program that automatically makes a backup copy of a folder.
+
+Imagine a hospital administrator who has to manually copy important working files into a backup folder. Your automation performs that repetitive action for them.
+What your first automation will do
+Choose a folder
+For example: Training Reports
+Power Automate runs
+Copies the selected folder automatically
+Backup created
+Saved under Desktop → backup
+
+
+Follow these instructions:
+1. Open Power Automate Desktop.
+2. Click New flow.
+3. Name it Folder Backup Automation.
+4. Click Create.
+5. In the left-side Actions panel, search for Get special folder. Drag it into the flow, leave Desktop selected, and save.
+6. Add Display select folder dialog so you can choose which folder to back up.
+7. Add Create folder. Set its parent location to %SpecialFolderPath% and new folder name to backup.
+8. Add Copy folder. Set Folder to copy to %SelectedFolder% and Destination folder to %SpecialFolderPath%\backup.
+9. Save and click Run. Choose a test folder containing a few dummy files.
+Check your Desktop. You should find the copied folder inside a folder called backup. Use a fresh test folder and avoid overwriting important files.
