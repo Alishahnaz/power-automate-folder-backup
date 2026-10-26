@@ -27,11 +27,11 @@ I developed a desktop automation that allows a user to select a folder and autom
 
 ## Flow Screenshot
 
-![Power Automate Desktop flow](screenshots/Flow-Design.png)
+![Power Automate Desktop flow](Flow-Design.png)
 
 ## Example Output
 
-![Backup folder created](screenshots/Backup-Result.png)
+![Backup folder created](Backup-Result.png)
 
 ## Testing
 
